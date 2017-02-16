@@ -1,0 +1,28 @@
+{
+    "name": "yk/laravel-phpmyadmin",
+    "description": "A Laravel package for easy PhpMyAdmin deployment.",
+    "homepage": "https://github.com/yassine-khachlek/laravel-phpmyadmin",
+    "license": "GPLv2",
+    "keywords": [
+        "laravel",
+        "package",
+        "phpmyadmin"
+    ],
+    "authors": [
+        {
+            "name": "Yassine Khachlek",
+            "email": "yassine.khachlek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Yk\\LaravelPhpmyadmin\\": "src/"
+        }
+    }
+}
